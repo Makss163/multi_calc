@@ -1,16 +1,15 @@
 <template>
     <div class="mc-page">
         <nav-bar></nav-bar>
-        <h1>main</h1>
+        <h1>enigeneering</h1>
     </div>
 </template>
 <script lang="ts">
+import { defineComponent } from 'vue';
 
-export default {
-    mounted() {
-        console.log('created main');
-    }
-}
+export default defineComponent({
+
+})
 </script>
 <style lang="scss" scoped>
     
