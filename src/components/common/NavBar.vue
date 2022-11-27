@@ -2,28 +2,28 @@
     <div class="nav-bar-wrapper flex-center">
         <div class="nav-bar flex-center-between">
             <div class="nav-bar__left">
-                <mc-button
+                <button
                     @click="fRelocationMain"
-                    :className="['btn-mc-m', 'btn-mc-fill']"
+                    class="btn-mc btn-mc-m btn-mc-fill"
                 >
                     Главная
-                </mc-button>
+                </button>
             </div>
     
             <div class="nav-bar__right flex-center-between">
-                <mc-button
+                <button
                     @click="fRelocationClassic"
-                    :className="['btn-mc-m']"
+                    class="btn-mc btn-mc-m"
                 >
                     Классический калькулятор
-                </mc-button>
+                </button>
         
-                <mc-button
+                <button
                     @click="fRelocationEnigeneering"
-                    :className="['btn-mc-m']"
+                    class="btn-mc btn-mc-m"
                 >
                     Инженерный калькулятор
-                </mc-button>
+                </button>
             </div>
         </div>
     </div>
@@ -39,13 +39,13 @@ export default defineComponent({
 
     methods: {
         fRelocationMain() {
-            this.$router.push(MultiCalcI.Routes.main);
+            this.$router.push(MultiCalcI.PagePath.main);
         },
         fRelocationClassic() {
-            this.$router.push(MultiCalcI.Routes.classic);
+            this.$router.push(MultiCalcI.PagePath.classic);
         },
         fRelocationEnigeneering() {
-            this.$router.push(MultiCalcI.Routes.engineering);
+            this.$router.push(MultiCalcI.PagePath.engineering);
         }
     }
 })

@@ -6,15 +6,15 @@ import { MultiCalcI } from '@/interface/MultiCalcI';
 
 const routes = [
     {
-        path: MultiCalcI.Routes.main, 
+        path: MultiCalcI.PagePath.main, 
         component: Main
     },
     {
-        path: MultiCalcI.Routes.classic, 
+        path: MultiCalcI.PagePath.classic, 
         component: ClassicCalc
     },
     {
-        path: MultiCalcI.Routes.engineering, 
+        path: MultiCalcI.PagePath.engineering, 
         component: EngineeringCalc
     }
 ];

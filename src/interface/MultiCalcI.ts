@@ -1,5 +1,5 @@
 export  namespace MultiCalcI {
-    export enum Routes {
+    export enum PagePath {
         main = '/',
         classic = '/classic',
         engineering = '/engineering',

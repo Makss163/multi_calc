@@ -5,12 +5,11 @@
     </div>
 </template>
 <script lang="ts">
+import { defineComponent } from 'vue';
 
-export default {
-    mounted() {
-        console.log('created main');
-    }
-}
+export default defineComponent({
+
+})
 </script>
 <style lang="scss" scoped>
     
